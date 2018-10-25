@@ -1,0 +1,45 @@
+@charset "utf-8";
+.margin{width:1190px;margin:0 auto;}
+#top{width:100%;height:29px;border-bottom: 1px solid #e1e1e2;border-bottom: 1px solid #e1e1e2;font: 11px/29px "";}
+#top .left{float:left;}
+#top .left p {float:left;color:#787878;}
+#top .left a{float:left;color:#ff8a00;margin-left:14px;background:url(../images/laba.png)left 0 center no-repeat;padding-left:18px;}
+#top .left img{margin-right: 5px;}
+#top .right {float:right}
+#top .right ul li {float:left;}
+#top .right ul li span{margin:0 14px;color:#e3dee3;}
+#top .right ul li a:hover{border-bottom:1px solid  #009ee0;color:#009ee0;}
+#top .right ul li.mobile{position: relative;}
+#top .right ul li .code{width:174px;height:209px;position:absolute;background:url(../images/top-appcode.png) no-repeat;top:25px;right:-36px;display: none;z-index:30;}
+#top .right ul li.mobile:hover .code{display: block;cursor: pointer;}
+
+header{height:108px;width:100%;line-height: 108px;}
+header .logo{float:left;}
+header .promise{float:left;margin:35px 0 0 65px;}
+header .promise .cmt{width:294px;height:30px;background:url(../images/promise.jpg) no-repeat;cursor: pointer;display: block;}
+header .search{float:left;width:385px;height:34px;margin:30px 0 0 36px;position: relative;}
+header .search .text{width:305px;height:30px;float:left;border:none;border: 2px solid #009ee0;border-right:none;text-indent: 2px;}
+header .search .sub{width:78px;height:34px;border:none;float:right;background:url(../images/new_sp.png)0 -296px  no-repeat;position:absolute;cursor: pointer;}
+header .cart{width:94px;height:32px;border:1px solid #e8e8e8;float:left;margin:30px 0 0 10px;background:#f8f8f8;}
+header .cart a{display:block;height:32px;background:url(../images/top_cart.png)7px 6px no-repeat;font: 14px/32px "";padding-left: 37px;}
+
+nav{width:100%;height:39px;background:#0099e6;overflow: hidden;}
+nav ul li{float:left;font:800 15px/39px "";}
+nav ul li a{color:#fff;}
+nav ul li.all{width:220px;height:38px;margin-top:1px;color:#fff;position: relative;background: #0086d4}
+nav ul li.all i{width:16px;height:15px;background-position: 0 -8px;position: absolute;top:16px;left:15px;}
+nav ul li.all h3{text-indent: 40px;}
+nav ul li.home{margin-left:22px;}
+nav ul li.country{position: relative;padding:0 22px;z-index:20;}
+nav ul li i{width:6px;height:3px;position:absolute;top:50%;right:10px;margin-top:-2px;cursor: pointer;background: url(../images/icon-small.png)no-repeat;display:block;}
+nav ul li.country:hover i{background:url(../images/icon-small.png)no-repeat;background-position:0 -4px;display: block;position:absolute;}
+nav ul li.pro{margin:0 45px;}
+nav ul li.bus{margin:0 45px;}
+nav ul li .list-top{display:none;position: fixed;top:177px;right:420px;width:210px;z-index:10;background: #fff;box-shadow: 0 2px 2px #E6E6E6;}
+nav ul li .list{margin:0 15px;padding:10px 0 5px 10px;border-bottom: 1px solid #E6E6E6;float:none;line-height:2;font-size:12px;}
+nav ul li .list p.title{color:#008EE0;font:800 14px/20px "";}
+nav ul li .list a{display:block;color:#666666;}
+nav ul li.country:hover .list-top{display: block;}
+nav ul li:nth-child(7) ul{position:fixed;top:177px;right:332px;}
+nav ul li:nth-child(8) ul{position:fixed;top:177px;right:262px;}
+
